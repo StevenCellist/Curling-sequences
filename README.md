@@ -1,7 +1,7 @@
 # Curling-sequences
-On curling sequences, existing of 2's and 3's. Let's crunch some sequences!
+On curling sequences, trying to find a sequence with infinite repetition. Let's crunch some sequences!
 
-Largest length achieved: *n* = 345.
+Largest generator length achieved: *n* = 345.
 
 Record values:
 | *n* |&Omega;(*n*)| | *n* |&Omega;(*n*)| | *n* |&Omega;(*n*)|
@@ -16,5 +16,8 @@ Record values:
 |14   |118  |   |118  |229  |   |208  |1708 |
 |19   |119  |   |128  |332  |   |217  |1836 |
 |22   |120  |   |132  |340  |   |290  |3382 |
+
+GCC flag instructions for Sequences-negative.cpp:
+g++ -std=c++11 -march=native -fno-strict-aliasing -O3 Sequences-negative.cpp
 
 Contributors: Steven Boonstoppel, Vladimir Feinstein, Levi van de Pol
