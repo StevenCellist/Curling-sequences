@@ -18,6 +18,6 @@ Record values:
 |22   |120  |   |132  |340  |   |290  |3382 |
 
 GCC flag instructions for Sequences-negative.cpp:
-g++ -std=c++11 -march=native -fno-strict-aliasing -O3 Sequences-negative.cpp
+g++ -std=c++11 -march=native -fno-strict-aliasing -pthread -O3 Sequences-negative.cpp
 
 Contributors: Steven Boonstoppel, Vladimir Feinstein, Levi van de Pol
