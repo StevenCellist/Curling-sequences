@@ -18,6 +18,9 @@ Record values:
 |22   |120  |   |132  |340  |   |290  |3382 |
 
 GCC compile instructions for Sequences-negative.cpp:
-g++ -std=c++11 -march=native -fno-strict-aliasing -pthread -O3 Sequences-negative.cpp
+`g++ -std=c++11 -march=native -fno-strict-aliasing -pthread -O3 Sequences-negative.cpp -o final.out`
+
+MPICH compile instructions for MPI-Sequences.cpp:
+`mpicxx -std=c++11 -march=native -fno-strict-aliasing -O3 MPI_Sequences -o final.out`
 
 Contributors: Steven Boonstoppel, Vladimir Feinstein, Levi van de Pol
